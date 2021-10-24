@@ -44,7 +44,7 @@ namespace SpatialPartitionPattern
         public override void Move()
         {
             //Move towards the target
-            soldierTrans.Translate(Vector3.forward * Time.deltaTime * walkSpeed);
+            soldierTrans.Translate(Vector3.forward * Time.deltaTime * Random.Range(1f, 4f));
 
             //See if the the cube has moved to another cell
             grid.Move(this, oldPos);

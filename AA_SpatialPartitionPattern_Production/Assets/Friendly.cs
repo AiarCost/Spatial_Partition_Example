@@ -13,7 +13,7 @@ namespace SpatialPartitionPattern
         {
             this.soldierTrans = soldierObj.transform;
 
-            this.walkSpeed = 2f;
+            this.walkSpeed = 1f;
         }
 
 
